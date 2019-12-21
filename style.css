@@ -74,11 +74,20 @@ body{
 }
 
 .social-links a {
-  text-decoration: none;
-  padding: 4px;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  color: black;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 24px;
 }
 
 .social-links a:hover {
+  background: : #e67e22;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -86,9 +95,33 @@ body{
 
 
 
-
-
-
 .profile-picture {
   border-radius: 50%;
+}
+
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
